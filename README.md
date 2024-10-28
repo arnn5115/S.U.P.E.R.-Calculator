@@ -35,11 +35,12 @@ Fungsi-fungsi dasar berupa add (penambahan), sub (pengurangan), mult (perkalian)
 ### Fungsi fact(), perm(), permLoop(), dan comb()
 Fungsi faktorial, kombinasi dan permutasi yang menggunakan rekursi sebagai fungsi tambahan. Faktorial menggunakan 1 sebagai basecase. Permutasi menggunakan n-r+1 yang dicari pada fungsi permLoop(). Dan kombinasi dicari dengan Permutasi dibagi fact(r)
 ### Fungsi gcd(), gcdLoop(), dan lcm()
-Fungsi untuk menghitung GCD (Greatest Common Divider) atau FPB dan LCM (Least Common Multiplier) atau KPK. gcd() bertugas untuk menginisiasi gcdLoop() yang akan menghitung fpb dengan identitas berikut
+Fungsi untuk menghitung GCD (Greatest Common Divider) atau FPB dan LCM (Least Common Multiplier) atau KPK. gcd() bertugas untuk menginisiasi gcdLoop() yang akan menghitung FPB dengan identitas berikut
 1. gcd(2u, 2v) = 2 x gcd(u, v) berlaku jika keduanya genap
 2. gcd(u, 2v) = gcd(u, v) berlaku jika salah satu genap
 3. gcd(u, v) = gcd(u, v-u) dengan v > u, berlaku jika keduanya ganjil\
+
 Ketiga identitas tersebut diulang hingga didapat u=v dan mengembalikan u sebagai basecase.\
-Sedangkan KPK dapat dicari dengan membagi hasil kali kedua operand dan membaginya dengan FPB-nya.
+Sedangkan KPK dapat dicari dengan membagi hasil kali kedua operand dengan FPB-nya.
 ### Fungsi Pembantu
 lower() dan lowerTo() hanyalah fungsi untuk mengubah command menjadi lowercase sehingga mempermudah proses pembacaan.
